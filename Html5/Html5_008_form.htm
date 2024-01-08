@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form action="index.html" method="get">
+
+        Adı:<input type="text" name="name1" id="adi" required placeholder="Adınızı giriniz..."> <br>
+        Şifre: <input type="password" name="name2" id="sifre" required placeholder="Sifrenizi giriniz..."><br>
+        Email: <input type="email" name="name3" id="email" required placeholder="E-postanızı giriniz..."><br>
+        <hr>
+        <hr>
+        
+        <select name="" id="" >
+            <option value="">FrontEnd</option>
+            <option value="">BackEnd</option>
+            <option value="">Database</option>
+        </select>
+        <br>
+        <hr><hr>
+        
+        <select name="" id="" multiple>
+            <option value="">FrontEnd</option>
+            <option value="">BackEnd</option>
+            <option value="">Database</option>
+            <option value="">FrontEnd</option>
+            <option value="">BackEnd</option>
+            <option value="">Database</option>
+        </select>
+        <br>
+        <hr><hr>
+
+        <label for="number">Sayı:</label>
+        <input type="number" name="server_baglanti" id="number" min="10" max="100" step="5" value="25"> <br><br>
+        <hr><hr>
+
+        <label>Cinsiyet:</label><br>
+        Kadın:<input type="radio" name="cinsiyet" id="cns">
+        Erkek:<input type="radio" name="cinsiyet" id="cns2"> <br><br>
+        <hr><hr>
+
+        <label >Kitaplar:</label><br>
+        Java:<input type="checkbox" name="check" id="kitap">
+        JSF:<input type="checkbox" name="check2" id="kitap2">
+        Spring Boot:<input type="checkbox" name="check3" id="kitap3"> <br><br>
+        <hr><hr>
+        
+
+        <input type="reset" value="Temizle">
+        <input type="submit" value="Gönder">
+   
+    </form>
+
+</body>
+
+</html>
